@@ -1,5 +1,6 @@
 const Spot = require('../models/Spot');
 
+/**COMENTÁRIO INSERIDO */
 module.exports = {
     async store(req, res){
         const {filename} = req.file;
